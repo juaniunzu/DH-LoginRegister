@@ -53,6 +53,19 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //seteo el listener del boton register
+        this.mainActivityButtonRegister.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //creo intent
+                Intent mainARegister = new Intent(MainActivity.this, RegisterActivity.class);
+
+                //ejecuto el intent
+                startActivity(mainARegister);
+
+            }
+        });
+
 
 
     }
