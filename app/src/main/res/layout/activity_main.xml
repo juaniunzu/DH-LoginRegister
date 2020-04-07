@@ -40,7 +40,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="Password"
-            android:id="@+id/mainActivityEditTextPassword"/>
+            android:id="@+id/mainActivityEditTextPassword"
+            android:inputType="textPassword"/>
 
         <Button
             android:layout_width="wrap_content"

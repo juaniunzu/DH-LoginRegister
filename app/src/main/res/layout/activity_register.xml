@@ -33,12 +33,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="Password"
+            android:inputType="textPassword"
             android:id="@+id/registerActivityEditTextPassword"/>
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="Confirm password"
+            android:inputType="textPassword"
             android:id="@+id/registerActivityEditTextConfirmPassword"/>
 
         <Button
